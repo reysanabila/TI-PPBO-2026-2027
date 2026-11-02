@@ -7,9 +7,11 @@ public class Manager extends Pegawai {
         this.tunjanganJabatan = tunjanganJabatan;
     }
 
-    public void tampilkanRingkasan () {
-        System.out.println("Manager   : " + nama); // ERROR jika private
+    // Tugas b : Membuat getter tunjanganJabatan
+    public double getTunjanganJabatan() {
+        return tunjanganJabatan;
     }
+
 
 }
 

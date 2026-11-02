@@ -7,5 +7,10 @@ public class Staff extends Pegawai {
         this.tunjanganKinerja = tunjanganKinerja;
     }
 
+    // Tugas c : Membuat getter tunjanganKinerja
+    public double getTunjanganKinerja() {
+        return tunjanganKinerja;
+    }
+
 }
 
