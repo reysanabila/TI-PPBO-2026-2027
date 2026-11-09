@@ -1,18 +1,22 @@
-// Latihan 2 : SubClass Lingkaran
+// Tugas 2 : SubClass Lingkaran
 
 public class Lingkaran extends BangunDatar {
 
     private double radius;
 
-    // Constructor Lingkaran
-    public Lingkaran(double radius) {
+    public Lingkaran(String namaBangun, double radius) {
+        super(namaBangun); // Memanggil constructor superclass
         this.radius = radius;
     }
 
-    // Override method hitungLuas untuk Lingkaran (Luas = phi * r * r)
     @Override
     public double hitungLuas() {
         return Math.PI * radius * radius;
+    }
+
+    @Override
+    public double hitungKeliling() {
+        return 2 * Math.PI * radius;
     }
 
 }

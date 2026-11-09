@@ -1,18 +1,22 @@
-// Latihan 2 : SubClass Persegi
+// Tugas 2 : SubClass Persegi
 
 public class Persegi extends BangunDatar {
 
     private double sisi;
 
-    // Constructor Persegi
-    public Persegi(double sisi) {
+    public Persegi(String namaBangun, double sisi) {
+        super(namaBangun); // Memanggil constructor superclass
         this.sisi = sisi;
     }
 
-    // Override method hitungLuas untuk Persegi (Luas = sisi * sisi)
     @Override
     public double hitungLuas() {
         return sisi * sisi;
+    }
+
+    @Override
+    public double hitungKeliling() {
+        return 4 * sisi;
     }
 
 }
