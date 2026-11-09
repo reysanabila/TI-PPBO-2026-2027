@@ -6,7 +6,7 @@ public class Kucing extends Hewan {
 
     @Override
     public void bersuara () {
-        System.out.println (nama + " : Meong!" );
+        System.out.println (nama + "   : Meong!" );
     }
 
 }
