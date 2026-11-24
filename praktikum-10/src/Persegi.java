@@ -1,3 +1,5 @@
+// Latihan 1 : SubClass Persegi
+
 public class Persegi extends BangunDatar {
     private double sisi;
 

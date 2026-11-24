@@ -4,6 +4,7 @@ public class HewanDemo {
                 new Kucing("\nMilo"),
                 new Bebek("Donal"),
                 new Elang("Garuda"),
+                new Pinguin("White") // Latihan 2 : Menambahkan Pinguin
         };
 
         for (Hewan h : daftar) {

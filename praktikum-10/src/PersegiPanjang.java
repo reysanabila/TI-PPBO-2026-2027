@@ -1,3 +1,5 @@
+// Latihan 1 : SubClass Persegi Panjang
+
 public class PersegiPanjang extends BangunDatar {
     private double panjang;
     private double lebar;
@@ -8,6 +10,7 @@ public class PersegiPanjang extends BangunDatar {
         this.lebar = lebar;
     }
 
+    // Latihan 2 : Menghapus satu method
     @Override
     public double hitungLuas () {
         return panjang * lebar;

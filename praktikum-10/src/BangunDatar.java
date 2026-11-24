@@ -1,3 +1,5 @@
+// Latihan 1 : Bangun Datar
+
 public abstract class BangunDatar {
 
     protected String namaBangun;
